@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap" rel="stylesheet">
+  
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-light navstyle">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./images/logo.svg"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 h6">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Features
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><img src="./images/icon-todo.svg"> Todo List</a></li>
+              <li><a class="dropdown-item" href="#"><img src="./images/icon-calendar.svg"> Calendar</a></li>
+              <li><a class="dropdown-item" href="#"><img src="./images/icon-reminders.svg"> Reminders</a></li>
+              <li><a class="dropdown-item" href="#"><img src="./images/icon-planning.svg"> Planning</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Company
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">History</a></li>
+              <li><a class="dropdown-item" href="#">Our Team</a></li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav h6">
+          <a class="nav-link justify-content-end" href="#">Login</a>
+          <button class="btn btn-outline-dark me-2 justify-content-end" type="button">Register</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="textdiv mainscreen">
+    <div class="innertext">
+      <h1 class="pageheader">Make Remote Work</h1>
+      <p class="pagetext">Get your team in sync, no matter your location. Streamline processes, 
+      create team rituals, and watch productivity soar.</p>
+      <button class="btn btn-dark buttonsize" type="button">Learn More</button>
+      <div class="images">
+        <img src="./images/client-databiz.svg" class="databiz">
+        <img src="./images/client-audiophile.svg" class="audiophile">
+        <img src="./images/client-meet.svg" class="meet">
+        <img src="./images/client-maker.svg" class="maker">
+      </div>
+    </div>
+    <div class="herobox">
+      <img src="./images/image-hero-desktop.png" class="heroimg justify-content-end">
+    </div>
+  </div>
+
+  <div class="textdiv mobilescreen">
+    <img src="./images/image-hero-mobile.png" class="mobileimg">
+    <div class="mobiletext">
+      <h1 class="pageheader">Make Remote Work</h1>
+      <p class="pagetext">Get your team in sync, no matter your location. Streamline processes, 
+      create team rituals, and watch productivity soar.</p>
+      <button class="btn btn-dark buttonsize" type="button">Learn More</button>
+      <div class="images">
+        <img src="./images/client-databiz.svg" class="databiz">
+        <img src="./images/client-audiophile.svg" class="audiophile">
+        <img src="./images/client-meet.svg" class="meet">
+        <img src="./images/client-maker.svg" class="maker">
+      </div>
+    </div>
+    
+  </div>
+
+  
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">RenodoFTW</a>.
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

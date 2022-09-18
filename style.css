@@ -1,0 +1,113 @@
+.navstyle
+{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700px;
+}
+.heroimg
+{
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+}
+.textdiv
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.pageheader
+{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+}
+.pagetext
+{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    opacity: 60%;
+}
+.innertext
+{
+    display: flex;
+    flex-direction: column;
+}
+.buttonsize
+{
+    width: 150px;
+    margin-bottom: 50px;
+}
+.images
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    width: auto;
+    height: 75%;
+}
+.mobilescreen
+{
+    display: none;
+}
+.mainscreen
+{
+    display:flex;
+}
+.mobileimg
+{
+    width: 100%;
+    height: auto;
+}
+.mobiletext
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 750px) 
+{
+    .mobilescreen
+    {
+        display:flex;
+    }
+    .mainscreen
+    {
+        display:none;
+    }
+    .textdiv
+    {
+        flex-direction: column;
+        padding: 50px 60px 60px 60px;
+    }
+    .pageheader
+    {
+        margin-bottom: 5px;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .pagetext
+    {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .databiz
+    {
+        width:20%;
+    }
+    .audiophile
+    {
+        width:20%;
+    }
+    .meet
+    {
+        width:20%;
+    }
+    .maker
+    {
+        width:20%;
+    }
+}
+
